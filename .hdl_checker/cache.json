@@ -1,0 +1,747 @@
+{
+ "builder": {
+  "_version": "<undefined>",
+  "_logger": "hdl_checker.builders.fallback",
+  "_work_folder": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/.hdl_checker",
+  "_builtin_libraries": [],
+  "_added_libraries": [
+   {
+    "name": "default_library",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "__class__": "Fallback"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid26673.json",
+   "__class__": "Path"
+  },
+  1736999464.0255928,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/buffer_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ringbuffer_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/power_on_reset.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/top_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloonechar.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/pll.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/mem2serial.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/trigger_led.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloworld_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/bufferdomain.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/lpc.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/mem2serial_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/buffer.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/uart_tx_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ftdi.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ringbuffer.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloworld.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloworldwriter.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloonechar_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/uart_tx.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/top.v",
+     "__class__": "Path"
+    },
+    "mtime": 1736983484.4221456,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/lpc.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/uart_tx.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/top.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ftdi.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/top_tb.v",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/buffer_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "buffer_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      3,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloworld_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "helloworld_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/top.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloworld.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "helloworld",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/buffer.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "buffer",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/pll.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pll",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      12,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ringbuffer_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ringbuffer_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      3,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ftdi.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ftdi",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      4,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/lpc.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "lpc",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      12,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloonechar_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "helloonechar_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/trigger_led.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "trigger_led",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/mem2serial_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mem2serial_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/uart_tx_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "uart_tx_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      3,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/top_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "top_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/uart_tx.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "uart_tx",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/power_on_reset.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "power_on_reset",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/bufferdomain.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "bufferdomain",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/mem2serial.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mem2serial",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloworldwriter.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "helloworldwriter",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/ringbuffer.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ringbuffer",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alex/dev/fpga-toolchain/lpc_sniffer_tpm/test/helloonechar.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "helloonechar",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}

@@ -1,0 +1,26 @@
+# 12 MHz external clock input
+set_io ext_clock 35  # Pin 35 corresponds to CLK on the iCEBreaker
+set_frequency ext_clock 12
+
+# LPC signals
+set_io lpc_clock 4    # LPC clock on P1A1
+set_io lpc_ad[0] 2    # LPC data line 0 on P1A2
+set_io lpc_ad[1] 47   # LPC data line 1 on P1A3
+set_io lpc_ad[2] 45   # LPC data line 2 on P1A4
+set_io lpc_ad[3] 3    # LPC data line 3 on P1A7
+set_io lpc_frame 46   # LPC frame on P1A9
+set_io lpc_reset 44   # LPC reset on P1A10
+
+# UART signals
+set_io fsdi 6         # UART RX on RX pin
+set_io fsdo 9         # UART TX on TX pin
+set_io fscts 10       # UART CTS (BTN_N pin)
+# set_io fsclk 35       # UART clock derived from ext_clock, do i even need this????
+
+# Debug LEDs
+set_io lpc_clock_led 27  # LED1 on PMOD 2
+set_io lpc_frame_led 25  # LED2 on PMOD 2
+set_io lpc_reset_led 21  # LED3 on PMOD 2
+set_io valid_lpc_output_led 23  # LED4 on PMOD 2
+set_io overflow_led 26   # LED5 on PMOD 2
+
