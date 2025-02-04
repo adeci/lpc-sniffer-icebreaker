@@ -1,3 +1,5 @@
+# An edited version of this project to work with the icebreaker fpga, which uses the lattice UP5K and different pinout
+
 # TPM Specific lpc sniffer (low pin count) for ice40 stick
 
 Turn the ice40 stick into a LPC sniffer, only logging TPM specific messages. This repository is a duplicate of [https://github.com/lynxis/lpc_sniffer/](https://github.com/lynxis/lpc_sniffer/), with modifications made to only log messages with start field `0101` and address between `24` and `27`.
